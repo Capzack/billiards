@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 import Billiards from "./components/billiards";
+
 
 function App() {
   return (
-      <div>init</div>
-  )
+      <Billiards {...{
+        size: {
+          width: 550,
+          height: 300,
+        }
+      }}/>
+  );
 }
 
 export default App;
