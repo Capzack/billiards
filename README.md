@@ -1,4 +1,4 @@
-Игра бильярд на canvas
+Игра бильярд на canvas;
 Запуск: 
-  npm i
+  npm i,
   npm run start
